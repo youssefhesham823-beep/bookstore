@@ -1,16 +1,77 @@
-# bookstore
+# 📚 Bookia - Book Store App
 
-A new Flutter project.
+A modern Flutter bookstore app with a clean and elegant UI, built with Clean Architecture and BLoC pattern.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features (In Progress)
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Authentication (Login, Register, Forgot Password, OTP, Reset Password)
+- 🏠 Home Screen with Best Sellers
+- 📖 Book Details
+- ❤️ Wishlist
+- 🛒 Cart & Checkout
+- 📦 Place Order
+- 🔍 Search
+- 👤 Profile & Update Profile
+- 🌍 Multi-language Support (Arabic & English)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** - UI Framework
+- **Cubit/BLoC** - State Management
+- **Clean Architecture** - Project Structure
+- **Easy Localization** - Arabic & English Support
+- **Flutter ScreenUtil** - Responsive UI
+- **Flutter Gen** - Asset Generation
+
+---
+
+## 📁 Project Structure
+```
+lib/
+├── core/
+│   ├── theme/
+│   └── widgets/
+├── feature/
+│   ├── auth/
+│   │   ├── cubit/
+│   │   ├── data/
+│   │   └── ui/
+│   └── welcome/
+│       ├── cubit/
+│       ├── data/
+│       └── ui/
+└── gen/
+```
+
+---
+
+## 🚀 Getting Started
+```bash
+# Clone the repo
+git clone https://github.com/youssefhesham823-beep/bookstore.git
+
+# Install dependencies
+flutter pub get
+
+# Run code generation
+flutter pub run build_runner build --delete-conflicting-outputs
+
+# Run the app
+flutter run
+```
+
+---
+
+## 🎨 Design
+
+Designed in Figma with a clean and minimal UI using a gold color palette.
+
+---
+
+## 📌 Status
+
+🚧 Under Active Development
